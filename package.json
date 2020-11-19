@@ -1,8 +1,12 @@
 {
   "name": "vue-reloadapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reload app plugin",
   "author": "Dmitriy Rogov <d.rogov@autorus.ru>",
   "license": "MIT",
-  "main": "src/index.js"
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmrgv/vue-reloadapp.git"
+  }
 }
