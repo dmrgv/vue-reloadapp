@@ -27,10 +27,8 @@ function loadScript(options = {}) {
   });
 
   const oldVer = localStorage.getItem("ver")
-  if (oldVer) {
-    if(oldVer !== options.ver) {
-      window.needReloadApp = true
-    }
+  if (oldVer !== options.ver) {
+    window.needReloadApp = true
   }
   localStorage.setItem('ver', options.ver);
 }
